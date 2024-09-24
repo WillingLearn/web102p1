@@ -1,0 +1,49 @@
+#games-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    color: slateblue;
+
+}
+.img {
+    width: 100%;
+    border-radius: 5px;
+    box-shadow: 0 0 10px #FFFFFF;
+}
+.card {
+    background-color: white;
+    flex-basis: 20%;
+    padding: 1%;
+    margin: 1%;
+    width: 300px;
+    text-align: center;
+    border-radius: 7px;
+}
+body{
+    background-color: aquamarine;
+}
+#root {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 2rem;
+    text-align: center;
+    font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+    color: black;
+    background-color: white;
+}
+
+
+body {
+    margin: 0;
+    display: flex;
+    place-items: center;
+    min-width: 320px;
+    min-height: 100vh;
+}
+img{
+    width: 80%;
+}
+.container{
+    color-scheme: dark;
+
+}

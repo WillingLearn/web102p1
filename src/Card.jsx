@@ -7,6 +7,7 @@ const Card = (props) => {
         <div>{props.title}</div>
         {/* <img src={'./assets/${props.img}'}/> */}
         <img src={`/assets/${props.img}`} alt={props.title} />
+        <div> {props.bn}</div>
 
         <div>{props.author}</div>
         <div>{props.genre}</div>
